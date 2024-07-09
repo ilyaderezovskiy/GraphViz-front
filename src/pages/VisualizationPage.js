@@ -68,6 +68,12 @@ const uniqueArray = (objects, uniqueBy, keepFirst = true) => {
   )
 }
 
+localStorage.setItem('group', 0);
+localStorage.setItem('group1', '');
+localStorage.setItem('group2', '');
+localStorage.setItem('students', []);
+localStorage.setItem('lectors', []);
+localStorage.setItem('groups', []);
 
 function VisualizationPage() {
   const projectName = localStorage.getItem('projectName');
